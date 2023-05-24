@@ -101,7 +101,8 @@ section {
 
 
 .home {
-    background-image: url('./images/skyscrapers-from-low-angle-view.jpg');
+    /* background-image: url('https://img.freepik.com/free-photo/skyscrapers-from-low-angle-view_1359-568.jpg?w=1380&t=st=1684908952~exp=1684909552~hmac=cc9fb3dbd92cdf7584eebef20e098665022727ec0ad6ab06dd0b25ca625aabcf'); */
+    background-image: url(./skyscrapers-from-low-angle-view.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
@@ -166,9 +167,10 @@ section {
 }
 .home .contentThree .complogo .box {
     border-radius: 8rem;
-    background: #333;
+    background-image: linear-gradient(blue, yellow, blue);
     text-align-last: center;
-    margin: 2rem;
+    margin: 5rem;
+    padding: .5rem;
 }
 
 .home .contentThree .complogo img {
@@ -219,6 +221,7 @@ section {
     background: #333;
     text-align-last: center;
     padding: 2.5rem;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.2),5px 5px 15px rgba(0, 0, 0, 0.2);
 }
 
 .schedule .box-container .box i {
@@ -581,6 +584,22 @@ span {
         margin: 1.3rem;
         font-size: 2rem;
     }
+
+    .home {
+        background-size: cover;
+        position: relative;
+        background-position: center;
+    }
+    .home .contentOne h3 {
+        color: white;
+        font-size: 7rem;
+        text-transform: uppercase;
+    }
+    .home .contentThree .complogo {
+        display: inline;
+        justify-content: center;
+        margin: 2rem;
+    }
 }
 
 @media (max-width:450px){
@@ -589,6 +608,20 @@ span {
     }
     .header {
         padding: 1.5rem 2rem;
+    }
+
+    .home {
+        background-size: auto;
+    }
+    .home .contentOne h3 {
+        color: black;
+        font-size: 5rem;
+        text-transform: uppercase;
+    }
+    .home .contentThree .complogo {
+        display: inline;
+        justify-content: center;
+        margin: 2rem;
     }
     .register form .inputbox input{
         width: 100%;
