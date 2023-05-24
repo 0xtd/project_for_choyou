@@ -102,7 +102,7 @@ section {
 
 .home {
     /* background-image: url('https://img.freepik.com/free-photo/skyscrapers-from-low-angle-view_1359-568.jpg?w=1380&t=st=1684908952~exp=1684909552~hmac=cc9fb3dbd92cdf7584eebef20e098665022727ec0ad6ab06dd0b25ca625aabcf'); */
-    background-image: url(./skyscrapers-from-low-angle-view.jpg);
+    background-image: url(./images/skyscrapers-from-low-angle-view.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
